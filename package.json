@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-scsslint",
   "description": "Lint your .scss files as part of your build process.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "directories": {
     "doc": "doc",
     "test": "tests"
