@@ -1,0 +1,9 @@
+/dist
+/tmp
+/node_modules
+/bower_components
+/addon
+/app
+/config
+/tests
+/vendor

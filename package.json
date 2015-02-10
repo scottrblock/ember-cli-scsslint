@@ -1,6 +1,7 @@
 {
   "name": "ember-cli-scsslint",
-  "version": "0.0.0",
+  "description": "Lint your .scss files as part of your build process.",
+  "version": "0.1.0",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -19,6 +20,7 @@
   "devDependencies": {
     "broccoli-asset-rev": "^1.0.0",
     "broccoli-ember-hbs-template-compiler": "^1.6.1",
+    "broccoli-merge-trees": "^0.2.1",
     "ember-cli": "0.1.4",
     "ember-cli-content-security-policy": "0.3.0",
     "ember-cli-dependency-checker": "0.0.6",
@@ -33,9 +35,20 @@
   },
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "scss",
+    "scsslint",
+    "lint",
+    "scss-lint",
+    "sasslint",
+    "sass-lint"
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
+  },
+  "dependencies": {
+    "broccoli-scss-lint": "0.0.4",
+    "broccoli": "^0.13.3",
+    "broccoli-file-remover": "^0.3.1"
   }
 }
